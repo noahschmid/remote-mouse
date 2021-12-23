@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Remote Mouse</title>
+        <script src = "/socket.io/socket.io.js"></script>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+
+        <style> 
+            * { margin:0; padding:0; }
+            
+            html, body { width:100%; height:100%; }
+            
+            #canvas {
+                            display:block;
+                            margin: 0;
+                            padding: 0;
+                            image-rendering:pixelated;
+                            overflow:hidden;
+                        }
+
+            html,
+            body {
+                overscroll-behavior-y: contain;
+            }
+
+       
+        </style>
+    </head>
+    <body>
+        <canvas id='canvas'></canvas>
+        <script src="scripts/client.js"></script>
+        <script src="scripts/app.js"></script>
+    </body>
+</html>
