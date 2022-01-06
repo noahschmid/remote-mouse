@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "x.h": "c",
+        "uinput.h": "c",
+        "xlib.h": "c"
+    }
+}
